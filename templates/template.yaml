@@ -2,17 +2,30 @@ name: Template
 description: This template file contains the correct tactic definitions
 techniques:
   reconnaissance:
+    - ..
   resource-development:
+    - ..
   initial-access:
+    - ..
   execution:
+    - ..
   persistence:
+    - ..
   privilege-escalation:
+    - ..
   defense-evasion:
+    - ..
   credential-access:
+    - ..
   discovery:
+    - ..
   lateral-movement:
+    - ..
   collection:
+    - ..
   command-and-control:
+    - ..
   exfiltration:
+    - ..
   impact:
-  
+    - ..

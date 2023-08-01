@@ -23,10 +23,10 @@ The high-level steps to use this yourself are:
 
 1. Fork this project to your own namespace.
 2. Optionally, make your fork private.
-3. Provide your own YAML files inside the `/layers` folder.
+3. Provide your own YAML files inside the `layers/` folder. Use `templates/template.yaml` file as guidance.
 4. Manually run the default pipeline.
 5. Once the pipeline completes, go to "Deploy" -> "Pages", and check the box "Use unique domain".
 
 That's it! You can now visit your own portal at the URL specified in "Deploy" -> "Pages". If you made the project private, this portal will require you to authenticate with your GitLab credentials.
 
-Going forward, any changes you make to the `/layers` folder will automatically build a new version of the web application including your new layer files.
+Going forward, any changes you make to the `layers/` folder will automatically build a new version of the web application including your new layer files.

@@ -8,7 +8,8 @@ build_navigator:
   rules:
     - changes:
       - layers/*
-    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never
   script:
     - bash scripts/build-navigator.sh
   artifacts:
@@ -25,4 +26,5 @@ pages:
   rules:
     - changes:
       - layers/*
-    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never

@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+build_navigator:
+  image: ubuntu:latest
+  stage: build
+  only:
+    - schedules
+    - web
+    changes:
+      - layers/*
+  script:
+    - bash scripts/build-navigator.sh
+  artifacts:
+    paths:
+    - public
+
+pages:
+  stage: deploy
+  script:
+  - echo "nothing to do"
+  artifacts:
+    paths:
+    - public
+  only:
+  - schedules
+  - web
+  changes:
+      - layers/*

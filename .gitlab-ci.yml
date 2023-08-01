@@ -5,11 +5,10 @@ stages:
 build_navigator:
   image: ubuntu:latest
   stage: build
-  only:
-    - schedules
-    - web
-    changes:
+  rules:
+    - changes:
       - layers/*
+    - if: '$CI_PIPELINE_SOURCE == "web"'
   script:
     - bash scripts/build-navigator.sh
   artifacts:
@@ -23,8 +22,7 @@ pages:
   artifacts:
     paths:
     - public
-  only:
-  - schedules
-  - web
-  changes:
+  rules:
+    - changes:
       - layers/*
+    - if: '$CI_PIPELINE_SOURCE == "web"'

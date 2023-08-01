@@ -1,0 +1,41 @@
+name: Operation 1
+description: Example of a Red Team operation - not real data
+techniques:
+  reconnaissance:
+    - T1595
+    - T1590
+  resource-development:
+    - T1587
+  initial-access:
+    - T1190
+  execution:
+    - T1610
+  persistence:
+    - T1543
+    - T1053
+  privilege-escalation:
+    - T1611
+    - T1055
+  defense-evasion:
+    - T1612
+    - T1564
+  credential-access:
+    - T1555
+    - T1003
+  discovery:
+    - T1613
+    - T1083
+  lateral-movement:
+    - T1210
+    - T1021
+  collection:
+    - T1119
+    - T1005
+  command-and-control:
+    - T1071
+    - T1132
+  exfiltration:
+    - T1041
+  impact:
+    - T1485
+    - T1499

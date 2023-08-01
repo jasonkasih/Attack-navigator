@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+build_navigator:
+  image: ubuntu:latest
+  stage: build
+  rules:
+    - changes:
+      - layers/*
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never
+  script:
+    - bash scripts/build-navigator.sh
+  artifacts:
+    paths:
+    - public
+
+pages:
+  stage: deploy
+  script:
+  - echo "nothing to do"
+  artifacts:
+    paths:
+    - public
+  rules:
+    - changes:
+      - layers/*
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never

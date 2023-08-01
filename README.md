@@ -13,7 +13,7 @@ This can help with the following use cases:
 - Blue Teams looking to track coverage of detection capabilities.
 - Threat Intelligence folks looking to track adversary behaviors.
 
-You can this example build [here](#coming-soon), which includes sample attack data not related to any GitLab initiatives.
+You can see this example build [here](#coming-soon), which includes sample attack data not related to any GitLab initiatives.
 
 ## How to use this project
 

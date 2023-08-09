@@ -4,7 +4,7 @@ This project shows how you can use GitLab.com to build and deploy your own insta
 
 We've included automation to parse user-provided YAML files, which will then pre-populate the application with annotated matrixes (singular and combined). The build is automatically hosted using GitLab Pages with optional authentication, giving you a full solution to visualize your coverage of the [MITRE ATT&CK framework](https://attack.mitre.org/).
 
-You can see this example build [here](https://gitlab-hosted-attack-navigator-gitlab-com-gl-sec-8122c70a07a435.gitlab.io/), and read [this blog](#coming-soon) for a detailed explanation of the project and how we use it ourselves.
+You can see this example build [here](https://gitlab-hosted-attack-navigator-gitlab-com-gl-sec-8122c70a07a435.gitlab.io/), and read [this blog](https://about.gitlab.com/blog/2023/08/09/gitlab-mitre-attack-navigator/) for a detailed explanation of the project and how we use it ourselves.
 
 ![screenshot](navigator-screenshot.png)
 

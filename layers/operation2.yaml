@@ -7,7 +7,7 @@ techniques:
   resource-development:
     - T1583
   initial-access:
-    - T1122
+    - T1566
   execution:
     - T1204
   persistence:

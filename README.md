@@ -12,7 +12,7 @@ You can see this example build [here](https://gitlab-hosted-attack-navigator-git
 
 MITRE ATT&CK is a framework to classify and describe cybersecurity attacks based on real-world observations. It provides a common language that can be used by different groups inside a security organization to collaborate on security initiatives.
 
-This project can automatically build a pre-configured version of ATT&CK Navigator for you. This is a static web application that can help you visualize the tactics and techniques inside the ATT&CK framework. It is essentially a reporting tool that supports custom annotations.
+This project can automatically build a pre-configured version of the ATT&CK Navigator for you. This is a static web application that can help you visualize the tactics and techniques inside the ATT&CK framework. It is essentially a reporting tool that supports custom annotations.
 
 At GitLab, our [Red Team](https://about.gitlab.com/handbook/security/threat-management/red-team/) uses this tool to keep track of which techniques we have previously emulated. However, anyone who is already leveraging the ATT&CK framework may find this project useful.
 

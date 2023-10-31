@@ -1,11 +1,8 @@
 #!/bin/bash
 
 # install pre-reqs
-apt update && apt install -y git curl python3 jq python3-pip python3-yaml
-curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
-    apt install -y nodejs git
+apt update && apt install -y jq python3-pip python3-yaml
 npm install -g @angular/cli
-npm install -g yarn
 
 # download navigator
 git clone https://github.com/mitre-attack/attack-navigator
